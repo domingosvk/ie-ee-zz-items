@@ -1,0 +1,58 @@
+// setup-zz-items.tp2
+
+BACKUP ~zz-items/backup~
+AUTHOR ~ZZ private/custom cheating item pack~
+VERSION ~0.1~
+
+LANGUAGE ~English~
+         ~english~
+         ~zz-items/lang/english.tra~
+
+BEGIN @1
+
+// Supported targets:
+// - BG2EE uses resources from zz-items/bg2/
+// - IWDEE uses resources from zz-items/iwd/
+// Other games are intentionally unsupported.
+REQUIRE_PREDICATE GAME_IS ~bg2ee iwdee~
+  ~ZZ Admin Items currently supports BG2EE and IWDEE only.~
+
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
+
+  COPY ~zz-items/bg2/ZZSTICK.ITM~ ~override/ZZSTICK.ITM~
+    SAY NAME2 @1001
+    SAY DESC  @1002
+
+  COPY ~zz-items/bg2/ZZHEAD.ITM~ ~override/ZZHEAD.ITM~
+    SAY NAME2 @1011
+    SAY DESC  @1012
+
+  COPY ~zz-items/bg2/ZZBODY.ITM~ ~override/ZZBODY.ITM~
+    SAY NAME2 @1021
+    SAY DESC  @1022
+
+  // ZZSTICK spells
+  COPY ~zz-items/bg2/ZZSTICKO.SPL~ ~override/ZZSTICKO.SPL~
+  COPY ~zz-items/bg2/ZZSTICKR.SPL~ ~override/ZZSTICKR.SPL~
+  COPY ~zz-items/bg2/ZZSTICKK.SPL~ ~override/ZZSTICKK.SPL~
+
+END ELSE ACTION_IF GAME_IS ~iwdee~ BEGIN
+
+  COPY ~zz-items/iwd/ZZSTICK.ITM~ ~override/ZZSTICK.ITM~
+    SAY NAME2 @1001
+    SAY DESC  @1002
+
+  COPY ~zz-items/iwd/ZZHEAD.ITM~ ~override/ZZHEAD.ITM~
+    SAY NAME2 @1011
+    SAY DESC  @1012
+
+  COPY ~zz-items/iwd/ZZBODY.ITM~ ~override/ZZBODY.ITM~
+    SAY NAME2 @1021
+    SAY DESC  @1022
+
+  // ZZSTICK spells
+  COPY ~zz-items/iwd/ZZSTICKO.SPL~ ~override/ZZSTICKO.SPL~
+  COPY ~zz-items/iwd/ZZSTICKR.SPL~ ~override/ZZSTICKR.SPL~
+  COPY ~zz-items/iwd/ZZSTICKK.SPL~ ~override/ZZSTICKK.SPL~
+
+END

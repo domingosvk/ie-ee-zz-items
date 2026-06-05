@@ -1,0 +1,152 @@
+// lang/english.tra
+
+@1 = ~ZZ steam badge collection items "This is not cheating, your honor"~
+
+// -----------------------------------------------------------------------------
+// ZZSTICK
+// -----------------------------------------------------------------------------
+
+@1001 = ~The Bonker~
+
+@1002 = ~A.k.a. The Murderstick, also filed as: Quarterstaff of Final Collection
+
+The Bonker comes from the administrative layer beneath the planes: scripts, opcodes, saves, globals, death variables, dialogue states, and old warnings marked "do not touch".
+
+It separates enemies with valid paperwork from enemies wasting animation time.
+
+Not fair combat. Steam badge collection.
+
+Operational Warning:
+Let dialogue, transformations, surrender states, journal updates, phase changes, and death scripts finish before final collection.
+
+STATISTICS:
+
+Combat abilities:
+- Strikes as a +6 weapon
+- MAX attacks per round
+- Main attack: melee at 40ft range
+- Alternate attack: ranged beholder-ray magic damage projectile
+- On hit: removes dispellable protections without level comparison or credential review
+- On hit: discourages troll-related clerical delays
+- On hit when bonking: no-save slay target
+
+Special abilities:
+- I see you:
+  Instant True Sight-style audit. Invisibility, illusions, and hostile concealment paperwork are revoked immediately.
+- Papers, Please:
+  Enemy-area dispel and summon cleanup. Effects without nondispellable authorization are authoritatively removed.
+  "But I am an ancient lich" is not a document.
+- The Harvest:
+  Enemy-area final processing. Hostiles without proper immunity paperwork play their final animation. No save. No magic resistance.
+  Use after quest paperwork is complete. Overharvesting may cause poor judgment.
+
+THAC0: auto-hit or administratively equivalent
+Damage ("melee"): BIG
+Damage (ranged): small
+Damage type: crushing
+Speed Factor: irrelevant
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ someone tired enough to equip it
+
+Weight: 4~
+
+
+// -----------------------------------------------------------------------------
+// ZZHEAD
+// -----------------------------------------------------------------------------
+
+@1011 = ~Halo of Certainty~
+
+@1012 = ~A.k.a. Headwear of Impossible Competence
+
+The Halo of Certainty appeared where test items, prototypes, and "temporary" debugging tools become permanent.
+
+It shines, hums, and can be seen from orbit.
+This has no bearing on stealth checks.
+Visibility is sensory. Stealth is a form field.
+
+The halo corrects scheduling defects: locks, traps, spell limits, wild surges, fog of war, daily memorization, and similar frictions.
+
+STATISTICS:
+
+Equipped abilities:
+- Improved Alacrity while worn
+- Major spellcasting speed improvement
+- Arcane and divine spell slots greatly expanded where applicable
+- Wild surge bonus sufficient to encourage intended spell behavior
+- Thieving skills improved enough that success should no longer be a planning variable
+- Viewing distance at practical maximum
+- Luck bonus
+- Infravision
+- Non-Detection
+
+Special abilities:
+- Logistic Correction:
+  Once per rest, performs instant rest-grade correction. Spells, innate abilities, item charges, fatigue, and daily schedules are restored.
+  The encounter requested mushrooms. The wearer had pineapples. Logistics corrected the discrepancy in the blink of an eye, because full-day preparation is for mere mortals.
+- Cartographic Appreciation:
+  Reveals the local map without outdoor objections, so the artistic department's work may finally be seen.
+- Not on Today's Docket:
+  Invisibility and administrative unavailability for hostile attention.
+  This protects irrelevant enemies from unnecessary death, loot piles, pathing clutter, and being processed despite carrying no quest variables, unlocks, required items, or meaningful comedy.
+  Survival should not be mistaken for relevance.
+- Knock, Politely:
+  Attempts to unlock what is unlockable. Intended for wearers without proper lockpicking buttons.
+  The Knock fairy may accept the request, if the office provides proper paperwork.
+
+Limitations:
+Does not provide wisdom, restraint, or immunity to shiny buttons.
+
+Requires:
+ a head willing to become a filing cabinet
+
+Weight: 1~
+
+// -----------------------------------------------------------------------------
+// ZZBODY
+// -----------------------------------------------------------------------------
+
+@1021 = ~Garment of Immunity~
+
+@1022 = ~Also filed as: Wearable Refusal of Status Flags
+
+The Garment of Immunity formed where planar law, engine habit, and player impatience agreed that some effects should stop being funny.
+
+It does not grant courage. It grants refusal.
+Ordinary magic is refused by magic resistance. Ordinary consequences are refused by saving throws. Ordinary violence gets lost among weapon immunity, resistance, and minimum-hit-point paperwork.
+Explicit refusal is reserved for effects that remove agency, corrupt the character sheet, or turn solo badge collection into a reload prompt.
+
+STATISTICS:
+
+Equipped abilities:
+- Defensive adjustment: administratively excessive
+- Saving Throws: sufficiently reduced
+- Magic Resistance: sufficient to keep refusing ordinary magic
+- Physical, elemental, magic-damage and poison resistances: complete
+- Minimum hit points: 1
+- Minimum ability scores: 1
+- Protection from Evil, mostly so gated visitors remember their place
+- Explicit protection from known no-save/no-MR nonsense
+- Explicit protection from selected agency-theft, forced-movement, character-sheet corruption and reload-prompt effects
+- Immunity to critical hits
+- Immunity to normal weapons
+- Immunity to magical weapons
+- Immunity to Time Stop
+
+Special abilities:
+- Ledger Correction:
+  Removes dispellable effects from the wearer. Beneficial, hostile, accidental, theatrical, and embarrassing entries are not distinguished.
+  Cures poison and disease. Removes curse. Restores levels and ability scores. Clears minor residue. Heals the wearer.
+  If an effect wished to survive, it should have filed nondispellable authorization.
+  The wearer is advised not to become attached to temporalities.
+
+Limitations:
+Does not protect against cutscenes, scripted placement, invalid use, broken scripts, curiosity, or processing a quest encounter before the quest form has closed.
+
+Armor Class: sufficiently low
+Requires:
+ a character tired of reload prompts
+
+Weight: 7~
